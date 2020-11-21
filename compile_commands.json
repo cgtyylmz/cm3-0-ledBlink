@@ -1,0 +1,34 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/arm-none-eabi-gcc",
+      "-O0",
+      "-mcpu=cortex-m0",
+      "-msoft-float",
+      "-g3",
+      "-mthumb",
+      "-I./inc",
+      "-I./libopencm3/include",
+      "-DSTM32F0",
+      "-Wall",
+      "-Wundef",
+      "-Wextra",
+      "-Wshadow",
+      "-Wimplicit-function-declaration",
+      "-Wredundant-decls",
+      "-fno-common",
+      "-ffunction-sections",
+      "-fdata-sections",
+      "-fno-builtin",
+      "-fno-exceptions",
+      "-fno-unwind-tables",
+      "-o",
+      "obj/main.o",
+      "-c",
+      "./src/main.c"
+    ],
+    "directory": "/home/cagatay/Projects/arm/stm32f0/opencm3/cm3-0-ledBlink",
+    "file": "/home/cagatay/Projects/arm/stm32f0/opencm3/cm3-0-ledBlink/./src/main.c",
+    "output": "/home/cagatay/Projects/arm/stm32f0/opencm3/cm3-0-ledBlink/obj/main.o"
+  }
+]
