@@ -2,7 +2,9 @@
 
 ## Building
 
-* $ make all : compile source files
+ $ make all
+
+ : compile source files
 * All Source files must be in './src' folder
 * And Header files be in './inc' folder
 
