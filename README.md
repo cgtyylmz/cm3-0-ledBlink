@@ -4,7 +4,7 @@
 
 * "make all" : compile source files
 * All Source files must be in './src' folder
-* And Header files be in './inc' folde
+* And Header files be in './inc' folder
 
 ## Flashing
 * Flashing with st-link
